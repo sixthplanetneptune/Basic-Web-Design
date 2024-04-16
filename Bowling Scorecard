@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Scorecard</title>
+    <link rel="stylesheet" href="scorecard_styles.css">
+</head>
+<body>
+    <h1>Bowling Scorecard</h1>
+    <table class="scorecard">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Frame 1</th>
+                <th>Frame 2</th>
+                <th>Frame 3</th>
+                <!-- Add more frames here -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Player 1</td>
+                <td>7</td>
+                <td>8</td>
+                <td>X</td>
+                <!-- Add more scores here -->
+            </tr>
+            <tr>
+                <td>Player 2</td>
+                <td>9</td>
+                <td>9</td>
+                <td>7/</td>
+                <!-- Add more scores here -->
+            </tr>
+            <!-- Add more players here -->
+        </tbody>
+    </table>
+</body>
+</html>
